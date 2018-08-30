@@ -74,6 +74,7 @@ export default {
         index: 0, // 默认选中第一个
         name: this.tabList[0].name // 寻找tabList第一个元素 还有他的名字
       }
+      this.$refs.content.children[0].classList.add('tab--panel-wrapper--active')
     })
   }
 }
