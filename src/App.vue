@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+    <router-view></router-view>
     <tab>
       <tab-panel name="验证码登录">
         这是验证码登录的内容
