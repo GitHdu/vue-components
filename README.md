@@ -1,4 +1,4 @@
-# vue-tab
+# vue-components
 
 ## Project setup
 ```

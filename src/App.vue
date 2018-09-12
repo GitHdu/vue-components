@@ -12,14 +12,13 @@
 </template>
 
 <script>
-import tab from './components/tab.vue'
-import tabPanel from './components/tab-panel.vue'
 
 export default {
   name: 'app',
-  components: {
-    tab,
-    tabPanel
+  mounted () {
+    this.$notify({
+      content: 'test1'
+    })
   }
 }
 </script>
